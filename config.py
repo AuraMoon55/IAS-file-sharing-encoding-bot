@@ -40,6 +40,7 @@ FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\n<b>You need to
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 
+USE_GROUP = os.environ.get("USE_GROUP", None)
 #Set true if you want Disable your Channel Posts Share button
 if os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True':
     DISABLE_CHANNEL_BUTTON = True
@@ -47,7 +48,6 @@ else:
     DISABLE_CHANNEL_BUTTON = False
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(1250450587)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
