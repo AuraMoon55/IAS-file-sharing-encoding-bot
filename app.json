@@ -45,6 +45,11 @@
       "description": "A space separated list of user_ids of Admins, they can only create links",
       "value": "",
       "required": false
+    },
+    "USE_GROUP": {
+      "description": "A special chat where admins can use bot it wont work in private chat",
+      "value": "",
+      "required": false
     }
   },
   "addons": [
