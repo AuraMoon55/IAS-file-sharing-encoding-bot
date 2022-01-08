@@ -26,13 +26,12 @@ FORCE_SUB_CHANNEL = -1001611440971
 TG_BOT_WORKERS = 4
 
 #start message
-START_MSG = """Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link."""
+START_MSG = " Take files "
 try:
     ADMINS=[5073412581,1392459364,1242979521,1337239251,2043468602]
 
 #Force sub message 
-FORCE_MSG = """Hello {first}\n\n<b>You need to join in my Channel/Group to use me\n\nKindly Please join Channel</b>"""
-
+FORCE_MSG = "Join channel and retry"
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = None
 
